@@ -27,7 +27,7 @@ header ul {
 }
 
 header ul li {
-    float: right;
+    float: left;
     display: inline;
     font-size: x-large;
     color: white;
@@ -51,22 +51,113 @@ body {
     background-color: white;
 }
 
-content-left {
-    float: left;
-    width: 50%;
+#About-Me {
+    width: 100%;
     display: block;
     padding-top: 100px;
-    height: 1000px;
+    height: 50%;
+    padding-bottom: 400px;
 }
-content-right {
-    float: right;
-    width: 50%;
+#My-Work {
+    width: 100%;
     display: block;
-    padding-top: 100px;
-    height: 1000px;
+    height: 50%;
+    padding-bottom: 300px;
 }
 
 .center {
     margin-left: 25%;
     margin-right: 25%;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: 10px solid #333333;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2.5%;
+}
+
+#About-Me p {
+    float: left;
+    font-size: x-large;
+    color: #333333;
+    padding-left: 10%;
+    padding-right: 5%;
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+#About-Me img {
+    display: inline;
+    float: right;
+    margin-top: 1%;
+    margin-right: 5%;
+    width: 14%;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #333333;
+}
+
+#My-Work h3 {
+    display: block;
+    float: left;
+    margin-left: 10%;
+    width: 30%;
+    margin-right: 60%;
+    font-size: xx-large;
+    color: #333333;
+    text-decoration: underline;
+}
+
+#My-Work p {
+    padding-top: 1%;
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+    font-size: x-large;
+}
+
+#My-Work a img {
+    display: block;
+    float: right;
+    margin-right: 10%;
+    width: 25%;
+    height: 30%;
+}
+
+#My-Work img:hover{
+    border: 2px solid black;
+}
+
+#Contact ul {
+    background-color: #333333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    align-items: center;
+    clear: both;
+}
+
+#Contact ul li {
+    display: inline;
+    font-size: x-large;
+    color: white;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    clear: both;
+}
+
+#Contact h1 {
+    display: block;
+    background-color: #333333;
+    color: white;
+    font-size: 30px;
+    clear: both;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
 }
